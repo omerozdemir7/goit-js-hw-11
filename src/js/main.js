@@ -10,7 +10,7 @@ const galleryContainer = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
 
 // Pixabay API Ayarları
-const API_KEY = 'YOUR_API_KEY'; // <-- BURAYA KENDİ API ANAHTARINIZI GİRİN
+const API_KEY = '32475203-0397f154fda8b2c2a6bae1f0a'; // <-- BURAYA KENDİ API ANAHTARINIZI GİRİN
 const BASE_URL = 'https://pixabay.com/api/';
 
 // SimpleLightbox Başlatma
