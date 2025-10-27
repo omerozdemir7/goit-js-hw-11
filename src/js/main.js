@@ -140,11 +140,12 @@ function renderGallery(images) {
   galleryContainer.innerHTML = markup;
 }
 
-// Yükleyici (Loader) Fonksiyonları
 function showLoader() {
   loader.classList.remove('hidden');
+  loader.nextElementSibling?.classList.remove('hidden'); // mesaj
 }
 
 function hideLoader() {
   loader.classList.add('hidden');
+  loader.nextElementSibling?.classList.add('hidden'); // mesaj
 }

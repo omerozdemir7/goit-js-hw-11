@@ -73,7 +73,7 @@ main {
   box-shadow: var(--card-shadow);
   overflow: hidden;
   transition: transform 0.3s;
-  width: calc(25% - 20px); /* 4'lü grid */
+  width: calc(25% - 20px);
   min-width: 250px;
 }
 
@@ -109,10 +109,11 @@ main {
   font-size: 14px;
 }
 
-/* Yükleyici (Loader) Stilleri */
+/* Loader */
 .loader-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
@@ -125,6 +126,13 @@ main {
   display: inline-block;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
+}
+
+.loader-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--dark-gray);
+  text-align: center;
 }
 
 .hidden {
