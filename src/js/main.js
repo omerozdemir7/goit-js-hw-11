@@ -96,10 +96,10 @@ function renderGallery(images) {
             <img class="gallery-image" src="${webformatURL}" alt="${tags}" loading="lazy"/>
           </a>
           <div class="info">
-            <p class="info-item"><b>Beğeni</b> ${likes}</p>
-            <p class="info-item"><b>Görüntüleme</b> ${views}</p>
-            <p class="info-item"><b>Yorum</b> ${comments}</p>
-            <p class="info-item"><b>İndirme</b> ${downloads}</p>
+            <p class="info-item"><b>Likes</b> ${likes}</p>
+            <p class="info-item"><b>Views</b> ${views}</p>
+            <p class="info-item"><b>Comments</b> ${comments}</p>
+            <p class="info-item"><b>Downloads</b> ${downloads}</p>
           </div>
         </li>`
     )
