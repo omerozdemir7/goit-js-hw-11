@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görsel Arama</title>
+    <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-B2mb6eXk.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-Dr4k8ETB.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-C63-WDnx.css">
+  </head>
+  <body>
+    <header class="header">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Görsel ara..."
+        />
+        <button type="submit">Ara</button>
+      </form>
+    </header>
+
+    <main>
+      <div class="loader-container">
+        <span class="loader hidden"></span>
+      </div>
+
+      <ul class="gallery"></ul>
+    </main>
+
+  </body>
+</html>
