@@ -26,6 +26,7 @@ searchForm.addEventListener('submit', onSearchSubmit);
 
 async function onSearchSubmit(event) {
   event.preventDefault();
+  event.stopPropagation();
   const form = event.currentTarget;
   const searchQuery = form.elements.searchQuery.value.trim();
 
