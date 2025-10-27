@@ -5,10 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Görsel Arama</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.css"
+    />
     <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-B2mb6eXk.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-Dr4k8ETB.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-C63-WDnx.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-DN4CAgZh.css">
   </head>
   <body>
     <header class="header">
@@ -26,10 +34,13 @@
     <main>
       <div class="loader-container">
         <span class="loader hidden"></span>
+        <p class="loader-text hidden">Lütfen bekleyin, görseller yükleniyor...</p>
       </div>
 
       <ul class="gallery"></ul>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.js"></script>
   </body>
 </html>
